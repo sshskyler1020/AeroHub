@@ -6,7 +6,7 @@
 ========================================================= */
 
 const FN_API = 'https://fortnite-api.com/v2/stats/br/v2';
-const KEY_STORAGE = 'as_fn_api_key';
+const KEY_STORAGE = 'f2bf8f90-2f80-49d1-a5a8-3469cfd971dc';
 const WATCHLIST_STORAGE = 'as_fn_watchlist';
 const JOURNAL_STORAGE = 'as_fn_journal';
 
