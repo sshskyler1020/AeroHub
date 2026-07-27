@@ -38,7 +38,7 @@ tabs.forEach(tab => {
   const iframe = document.getElementById('twitchEmbed');
   if (!iframe) return;
   const host = window.location.hostname || 'localhost';
-  const extraParents = ['sites.google.com', 'googleusercontent.com'];
+  const extraParents = ['sites.google.com', 'googleusercontent.com', 'https://sshskyler1020.github.io/AeroHub/'];
   const parents = Array.from(new Set([host, ...extraParents]))
     .filter(Boolean)
     .map(p => `parent=${encodeURIComponent(p)}`)
